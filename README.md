@@ -1,14 +1,10 @@
-[cassidoo.co](http://cassidoo.co)
+[Meina Gong](https://meinagong.com)
 ==============
 
 My personal website, version 5! Build from scratch using the awesome power of
 pure HTML, CSS, and JS, baby.
 
-## How it's built
-
 ### The Fetch API
-I really liked using the Fetch API to populate the content of the site in
-version 4.  So, I did it again!
 
 I made a couple easily editable JSON files to make maintaining information about
 me and what I'm doing super simple.  You can check those out for yourself in the
@@ -19,13 +15,7 @@ the holes in that.  There was so much debugging, it was like the aftermath of
 a real safari with no bug spray.
 
 ### Expanding content
-I originally had all of the content of the site exposed immediately, and changed
-that for 2 reasons:
-
-1) The loading message was kind of ugly and gross to have showing first thing
-2) That's a lot of scrolling for small screens
-
-So, it had to be expanded. This part was actually pretty simple. The `classList`
+This part was actually pretty simple. The `classList`
 DOM property already has a built-in function called `toggle`, so I just toggled
 a CSS class to make the content display.
 
