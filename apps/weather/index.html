@@ -12,11 +12,14 @@
     <div class="container my-5 mx-auto">
 
         <h1 class="text-muted text-center my-4">Weather</h1>
-    
-        <form class="change-location my-4 text-center text-muted">
-          <label for="city">Enter a location for weather information</label>
-          <input type="text" name="city" class="form-control p-4">
+  
+        <label for="city" class="text-muted text-center">Enter a location for weather information</label> 
+        <form class="change-location d-flex">
+            <input type="search" name="city" class="form-control me-2" aria-label="search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
         </form>
+
         
         <div class="card shadow-lg rounded d-none">
           <img src="https://via.placeholder.com/400x300" class="time card-img-top">
