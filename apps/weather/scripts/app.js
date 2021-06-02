@@ -1,4 +1,5 @@
 const cityForm = document.querySelector('form');
+const button = document.querySelector('.btn');
 const card = document.querySelector('.card');
 const details = document.querySelector('.details');
 const time = document.querySelector('img.time');
@@ -52,4 +53,9 @@ cityForm.addEventListener('submit', e => {
   updateCity(city)
     .then(data => updateUI(data))
     .catch(err => console.log(err));
+});
+
+button.addEventListener('submit', e => {
+  // prevent default action
+  e.preventDefault();
 });
