@@ -54,8 +54,3 @@ cityForm.addEventListener('submit', e => {
     .then(data => updateUI(data))
     .catch(err => console.log(err));
 });
-
-button.addEventListener('submit', e => {
-  // prevent default action
-  e.preventDefault();
-});
